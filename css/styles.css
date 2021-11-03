@@ -1,0 +1,203 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+/* -------------  BOOTSTRAP OVERRIDING -------------  */
+.container-fluid {
+  padding: 5% 15%;
+}
+
+/* -------------  COMMON CSS -------------  */
+.btn-dark {
+  background-color: #393E46;
+  border-color: #393E46;
+}
+
+a.btn-dark:hover{
+  background-color: #EEEEEE;
+  border-color: black;
+  color: black;
+}
+
+.download-button {
+  margin: 0 3% 0 0;
+}
+
+.btn-light {
+  background-color: #EEEEEE;
+  border-color: #EEEEEE;
+}
+
+.colored-section{
+  background-color: #6E85B2;
+  color: white;
+}
+
+/* -------------  TITLE SECTION -------------  */
+
+
+.title-container .container-fluid {
+  padding: 3% 15%;
+  text-align: left;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.title-navbar-brand {
+  font-family: 'Papyrus', fantasy;
+  font-size: 3rem;
+}
+
+.title-navbar-brand:hover {
+  color: #C9CCD5;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 1440px) {
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .nav-item {
+    padding-left: 0.3rem;
+  }
+}
+
+.title-h1 {
+  font-size: 4.3rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width:991px) {
+  .title-image-container {
+    text-align: center;
+    position: relative;
+    left: 4%;
+  }
+}
+
+.title-col-1 {
+  padding-bottom: 1rem;
+}
+
+.title-image {
+  width: 80%;
+}
+
+@media (max-width: 990px) {
+  .title-container .container-fluid{
+    text-align: center;
+  }
+
+  .title-image-container {
+    padding: 10% 0;
+  }
+
+  .title-image {
+    width: 50%;
+  }
+}
+
+/* ------------- FEATURES SECTION ------------- */
+.features-item {
+  padding: 5%;
+}
+
+.features-icon {
+  color: #8ca3d1;
+}
+
+.features-icon:hover {
+  color: #6E85B2;
+}
+
+.features-h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* -------------  TESTIMONIALS SECTION -------------  */
+.carousel-indicators {
+  top: 100%;
+}
+
+.testimonials-h2 {
+  padding: 0 10%;
+  margin-bottom: 5rem;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 1rem;
+}
+
+/* -------------  PRESS SECTION -------------  */
+.press-container {
+  padding: 6% 0;
+}
+
+.press-logo {
+  width: 70%;
+}
+
+/* -------------  PRICING SECTION -------------  */
+.pricing-card-h3, .pricing-card-h2{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.pricing-card-container {
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 0 10px 30px 10px;
+}
+
+/* -------------  CTA SECTION -------------  */
+
+.cta-h3 {
+  padding-bottom: 2rem;
+}
+
+/* -------------  FOOTER SECTION -------------  */
+.footer-icon {
+  margin: 1.5rem 0.6rem;
+  color: black;
+}
+
+.fa-facebook-f:hover {
+  color: #4267B2;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.fa-instagram:hover {
+  color: #8a3ab9;
+}
+
+.fa-envelope:hover {
+  color: #f1d592;
+}
